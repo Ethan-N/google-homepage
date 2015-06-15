@@ -2,12 +2,17 @@
 <html>
     <head>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<p>Ethan</p>
-		<p>Ethan</p>	
-		<p>Gmail</p>
-		<p>Images</p>	
     </head>
     <body>
-        <img src="https://www.google.com/images/srpr/logo11w.png"/>
-    </body>
+		<p class = "Header">Ethan</p>	
+		<p class = "Header">Gmail</p>
+		<p class = "Header">Images</p>
+        <img id="googleLogo" src="https://www.google.com/images/srpr/logo11w.png"/>
+		<input type="text" id="SB"></input>
+		<input type="submit" aria-label="Google Search" value="Google Search" id="GS"></input> 
+		<input type="submit" aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky" id="IFL"></input> 
+		<div id="footer">
+		<p>Advertising Business About        Privacy Terms Settings</p>   
+		</div>
+</body>
 </html>
