@@ -12,10 +12,8 @@ p{
 }
 img{
 	position:relative;
-	left:50%;
-r	right:50%;
-	padding-left:135;
 	padding-top:112px;
+	padding-right:135px;
 	width:269px;
 	height:95px;
 }
