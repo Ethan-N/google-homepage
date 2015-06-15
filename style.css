@@ -3,14 +3,49 @@ html, body{
 	width:100%;
 	height:100%;
 }
-p:first-child{
-	padding-left:70%;
+#icon{
+	width:32px;
+	height:32px;
+	background-image: url("https://lh5.googleusercontent.com/-B4dat-eOhE0/AAAAAAAAAAI/AAAAAAAAAAA/6TJKNTViOYQ/s32-c/photo.jpg");
+	background-size: 32px 32px;
+	margin:0 25px 0 0;
 }
-.Header{
-	position:relative;
-	margin: 2% 0 0 2%;
-	display:inline-block;
-	font-family:arial, sans-serif;
+#bell{
+	width:30px;
+	height:30px;
+	background-position:0px -71px;
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_71651352.png");
+	background-size: 356px 144px;
+	margin:0 25px 0 0;
+}
+#grid{
+	width:30px;
+	height:30px;
+	background-position:-326px -52px;
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_71651352.png");
+	background-size: 356px 144px;
+	margin:0 25px 0 0;
+}
+ul{
+	list-style-type: none;
+    margin: 0;
+    left: 10%;
+}
+li {
+	float:right;
+    display: inline;
+}
+a{
+	display: block;
+	text-decoration: none;
+	font-size:13px;
+	color:#222;
+	width:40px;
+	margin:6px 25px 0 0;
+	font-family: arial, sans-serif;
+}
+a:firstchild{
+	color:#737373;
 }
 #IFL{
 	position:relative;
@@ -22,17 +57,33 @@ p:first-child{
 	top:35%;
 	left:-15%;
 }
+#IFL, #GS{
+	background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+	-moz-user-select: none;
+	background-color: #F5F5F5;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	color: #444;
+	cursor: default;
+	font-family: arial,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 11px 8px;
+	min-width: 54px;
+	padding: 0px 8px;
+	text-align: center;
+	height:29px;
+	line-height:27px;
+}
 #SB{
 	position:relative;
 	left:12.5%;
 	top:29%;
 	width:550px;
-	height:20px;
 }
 #googleLogo{
 	position:relative;
 	left:40%;
 	width:269px;
-	height:95px;
 	top:25%;
 }

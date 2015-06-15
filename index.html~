@@ -1,18 +1,21 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+	<title>Google</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-		<p class = "Header">Ethan</p>	
-		<p class = "Header">Gmail</p>
-		<p class = "Header">Images</p>
+		<ul>
+			<li class = "Header"><a href="#" id="icon"></a></li>
+			<li class = "Header"><a href="#" id="bell"></a></li>
+			<li class = "Header"><a href="#" id="grid"></a></li>
+			<li class = "Header"><a href="#">Images</a></li>
+			<li class = "Header"><a href="#">Gmail</a></li>	
+			<li class = "Header"><a href="#">Ethan</a></li>		
+		</ul>
         <img id="googleLogo" src="https://www.google.com/images/srpr/logo11w.png"/>
 		<input type="text" id="SB"></input>
 		<input type="submit" aria-label="Google Search" value="Google Search" id="GS"></input> 
 		<input type="submit" aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky" id="IFL"></input> 
-		<div id="footer">
-		<p>Advertising Business About        Privacy Terms Settings</p>   
-		</div>
 </body>
 </html>
